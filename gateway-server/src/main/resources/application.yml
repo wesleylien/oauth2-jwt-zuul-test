@@ -1,0 +1,15 @@
+server:
+  port: 8421
+spring:
+  application:
+    name: gateway-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabeld: true
+#ribbon: 
+#  eureka: 
+#    enabled: false

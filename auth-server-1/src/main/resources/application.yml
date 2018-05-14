@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-auth1
+server:
+  port: 5001
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+#  basic:
+#    enabled: false
